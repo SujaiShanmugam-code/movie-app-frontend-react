@@ -1,16 +1,44 @@
-<<<<<<< HEAD
-# movie-app-frontend-react
-=======
-# React + Vite
+# Movie App - React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+This is a simple Movie App built using React with Vite. The app allows users to browse popular movies using an external API, implement search functionality, and navigate between different pages. It utilizes core React features like useState, useEffect, Context API, and React Router for page navigation.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+Fast Performance: Built with Vite for quick development and hot module replacement (HMR).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
->>>>>>> 22c1c62 (Initial commit - Added project files)
+API Integration: Fetches movie data from an external API.
+
+State Management: Uses useState and useEffect to manage component states.
+
+Routing: Implemented with react-router-dom for smooth navigation.
+
+Context API: Provides global state management for shared data.
+
+Responsive UI: Styled using CSS for a modern, clean look.
+
+## UI screenshot:
+
+<img width="1440" alt="Screenshot 2025-03-04 at 11 52 53 PM" src="https://github.com/user-attachments/assets/111f0906-9cfe-4472-b821-7a3d4489c2e1" />
+<img width="1440" alt="Screenshot 2025-03-04 at 11 53 18 PM" src="https://github.com/user-attachments/assets/3dbf12da-cf15-4aad-9b91-ef5849d02054" />
+<img width="1438" alt="Screenshot 2025-03-04 at 11 53 47 PM" src="https://github.com/user-attachments/assets/12646911-c338-4008-9e23-e83d74a7002e" />
+
+
+## Tech Stack
+
+Frontend: React, Vite, CSS
+
+State Management: React Hooks (useState, useEffect)
+
+Routing: React Router
+
+API Handling: Fetch API.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests with improvements.
+
+## License
+
+This project is open-source and available under the MIT License.
